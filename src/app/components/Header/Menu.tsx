@@ -1,13 +1,13 @@
 "use client";
 
-import styles from "../page.module.scss";
+import styles from "../../page.module.scss";
 import { useEffect } from "react";
 import Link from "next/link";
 import gsap from "gsap";
-import InIcon from "./Icons/InIcon";
-import InstIcon from "./Icons/InstIcon";
-import TwitIcon from "./Icons/TwitIcon";
-import FaceIcon from "./Icons/FaceIcon";
+import InIcon from "../Icons/InIcon";
+import InstIcon from "../Icons/InstIcon";
+import TwitIcon from "../Icons/TwitIcon";
+import FaceIcon from "../Icons/FaceIcon";
 import { Rout } from "@/types";
 
 export default function Menu({

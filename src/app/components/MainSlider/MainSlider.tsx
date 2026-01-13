@@ -1,6 +1,6 @@
 "use client";
 
-import styles from "../page.module.scss";
+import styles from "./mainslider.module.scss";
 import { useAppDispatch, useAppSelector } from "@/lib/hooks";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
@@ -11,7 +11,7 @@ import { useEffect } from "react";
 import { tick } from "@/lib/features/timerSlice";
 import { Post } from "@/types";
 import Image from "next/image";
-import PinIcon from "./Icons/PinIcon";
+import PinIcon from "../Icons/PinIcon";
 
 export default function MainSlider() {
   const dispatch = useAppDispatch();

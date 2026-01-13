@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import styles from "../../page.module.scss";
 import LogoIcon from "../Icons/LogoIcon";
-import Menu from "../Menu";
 import MobileIcon from "../Icons/MobileIcon";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import CloseIcon from "../Icons/CloseIcon";
+import Menu from "./Menu";
 
 const options = [
   {

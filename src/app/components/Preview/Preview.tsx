@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import styles from "../page.module.scss";
+import styles from "./preview.module.scss";
 import gsap from "gsap";
 import Image from "next/image";
 
