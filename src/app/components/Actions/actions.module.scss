@@ -18,7 +18,12 @@
     padding: 30px;
     justify-content: space-between;
     @media only screen and (min-width: 2000px) {
-      margin: 400px auto;
+      margin-top: 400px;
+      margin-bottom: 200px;
+    }
+    @media only screen and (min-width: 4000px) {
+      margin-top: 800px;
+      margin-bottom: 300px;
     }
     @media only screen and (max-width: 1300px) {
       width: 890px;

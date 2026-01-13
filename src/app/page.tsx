@@ -1,6 +1,6 @@
 "use client";
 
-import Actions from "./components/Actions/Actions"
+import Actions from "./components/Actions/Actions";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import MainSlider from "./components/MainSlider/MainSlider";
@@ -10,11 +10,11 @@ export default function Home() {
   return (
     <div id="page" className={styles.page}>
       <main className={styles.main}>
-        <Header/>
-        <Preview/>
+        <Header />
+        <Preview />
         <MainSlider />
-        <Actions/>
-        <Footer/>
+        <Actions />
+        <Footer />
       </main>
     </div>
   );
