@@ -1,0 +1,172 @@
+.actions {
+  background: #f9f9f9;
+  padding-bottom: 5px;
+  @media only screen and (min-width: 2000px) {
+    transform: scale(1.5);
+  }
+  @media only screen and (min-width: 4000px) {
+    transform: scale(2);
+  }
+  .block {
+    width: 1246px;
+    border-radius: 30px;
+    background: #141416;
+    margin: 120px auto;
+    color: #fff;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    @media only screen and (min-width: 2000px) {
+      margin: 400px auto;
+    }
+    @media only screen and (max-width: 1300px) {
+      width: 890px;
+    }
+    @media only screen and (max-width: 900px) {
+      width: 315;
+      height: 211;
+      display: block;
+      margin: 60px auto;
+      margin-bottom: 200px;
+    }
+    .action {
+      display: grid;
+      padding: 20px 36px;
+      @media only screen and (max-width: 900px) {
+        padding: 0;
+        align-items: center;
+        text-align: center;
+      }
+      .title {
+        font-family: Poppins;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: 45px;
+        line-height: 48px;
+        letter-spacing: 1%;
+        margin-bottom: 15px;
+        @media only screen and (max-width: 1024px) {
+          font-size: 34px;
+          line-height: 36px;
+          margin-bottom: 10px;
+        }
+        @media only screen and (max-width: 900px) {
+          font-size: 24px;
+          line-height: 24px;
+        }
+      }
+      .text {
+        font-family: Poppins;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 20px;
+        line-height: 22px;
+        letter-spacing: 0%;
+        color: #d4d4d4a5;
+        @media only screen and (max-width: 1024px) {
+          font-size: 15px;
+          line-height: 16.5px;
+        }
+        @media only screen and (max-width: 900px) {
+          font-size: 8px;
+        }
+      }
+      .flex {
+        display: flex;
+        gap: 20px;
+        align-items: end;
+        @media only screen and (max-width: 900px) {
+          align-items: center;
+          text-align: center;
+          justify-content: center;
+          margin-top: 15px;
+          margin-bottom: 35px;
+        }
+        .button {
+          background: #141416;
+          border: 2px solid #fff;
+          border-radius: 12.41px;
+          color: #fff;
+          font-family: Outfit;
+          font-weight: 600;
+          font-style: SemiBold;
+          font-size: 21.36px;
+          line-height: 130%;
+          letter-spacing: 1%;
+          width: 180px;
+          height: 68px;
+          cursor: pointer;
+          &:hover {
+            background: #000;
+            transition: all 1s;
+          }
+          @media only screen and (max-width: 1024px) {
+            font-size: 16px;
+            width: 135px;
+            height: 51px;
+          }
+          @media only screen and (max-width: 900px) {
+            font-size: 10px;
+            width: 91px;
+            height: 34px;
+          }
+        }
+        .light_button {
+          color: #222222;
+          background: #f9f9f9;
+          border: 1.5px solid #222222;
+          border-radius: 12.41px;
+          font-family: Outfit;
+          font-weight: 600;
+          font-style: SemiBold;
+          font-size: 21.36px;
+          line-height: 130%;
+          letter-spacing: 1%;
+          width: 180px;
+          height: 68px;
+          cursor: pointer;
+          &:hover {
+            color: #222222;
+            background: #d7d7d7;
+            transition: all 1s;
+          }
+          @media only screen and (max-width: 1024px) {
+            font-size: 16px;
+            width: 135px;
+            height: 51px;
+          }
+          @media only screen and (max-width: 900px) {
+            font-size: 10px;
+            width: 91px;
+            height: 34px;
+          }
+        }
+      }
+    }
+    .image {
+      position: relative;
+      img {
+        border-radius: 16px;
+        @media only screen and (max-width: 1024px) {
+          width: 264px;
+          height: 187px;
+        }
+        @media only screen and (max-width: 900px) {
+          width: 251px;
+          height: 130px;
+          position: absolute;
+          z-index: 100;
+        }
+      }
+      .shadow {
+        display: none;
+        @media only screen and (max-width: 900px) {
+          display: block;
+          position: absolute;
+          top: 37px;
+          z-index: 1;
+        }
+      }
+    }
+  }
+}
